@@ -8,7 +8,7 @@ public class EmployeeController {
 
     @GetMapping("/employees")
     public String showAllEmployees() {
-        return "Hello from Jenkins and new commit";
+        return "Hello from Jenkins and new commit *";
     }
 
 
